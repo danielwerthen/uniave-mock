@@ -22,15 +22,16 @@ aside {
 }
 
 article {
-  margin: 45px 0;
+  margin: 45px auto;
+  max-width: 800px;
 }
 
-article * {
+article p, article h1 {
   margin: 0 45px;
 }
 
 article img {
-  margin: 0;
+  margin: 30px 0 0 0;
 }
 
 header {
@@ -41,6 +42,13 @@ header {
   background-position: center bottom;
   background-repeat: no-repeat;
 
+}
+
+header .header-wrap {
+  position: relative;
+  height: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 header .logo {
@@ -117,7 +125,7 @@ footer {
 }
 
 footer nav {
-  margin: 100px;
+  margin: 100px 100px 25px;
 }
 
 footer nav .col {
@@ -135,7 +143,37 @@ footer label {
   margin: 5px 15% 5px 0;
 }
 
-footer label, footer li {
+footer label, footer nav li {
   text-transform: uppercase;
 }
 
+footer .tagline {
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+.tagline .social {
+  width: 140px;
+  margin: 0 auto;
+}
+
+.tagline .join {
+  text-transform: uppercase;
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+
+.tagline .social li {
+  display: inline-block;
+  width: 20px;
+  border: 1px solid rgb(50,72,67);
+  padding: 4px 1px 1px;
+  border-radius: 100px;
+}
+
+.tagline .copyright {
+  color: rgb(50,72,67);
+  font-size: 10px;
+}
