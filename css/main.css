@@ -1,0 +1,141 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  flex: 1;
+}
+
+aside {
+  flex: 0 0 320px;
+  background: rgb(245,245,245);
+}
+
+article {
+  margin: 45px 0;
+}
+
+article * {
+  margin: 0 45px;
+}
+
+article img {
+  margin: 0;
+}
+
+header {
+  position: relative;
+  height: 300px;
+  background-image: url("http://res.cloudinary.com/danieldaniel/image/upload/c_fill,g_center,h_300/v1441197478/theater_pyigzv.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+
+}
+
+header .logo {
+  position: absolute;
+  top: 45px;
+  left: 30px;
+}
+
+header .headline {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+header .headline h2 {
+  margin: 0;
+  color: white;
+}
+
+header .signin {
+  position: absolute;
+  top: 45px;
+  right: 30px;
+}
+
+header .signin a {
+  margin-left: 15px;
+}
+
+article p {
+  margin-top: 30px;
+}
+
+article blockquote {
+  float: right;
+  width: 33%;
+  margin: 30px;
+  color: rgb(96,187,138);
+}
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+aside h2 {
+  font-size: 24px;
+  margin: 15px 0;
+}
+
+aside li {
+  padding: 30px;
+  border-bottom: 1px solid rgb(229,229,229);
+}
+
+aside li:first-child {
+  background: rgb(96,187,138);
+  color: white;
+}
+
+footer {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#103025+0,071915+100 */
+  background: #103025; /* Old browsers */
+  background: -moz-linear-gradient(top,  #103025 0%, #071915 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#103025), color-stop(100%,#071915)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #103025 0%,#071915 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #103025 0%,#071915 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #103025 0%,#071915 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #103025 0%,#071915 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#103025', endColorstr='#071915',GradientType=0 ); /* IE6-9 */
+  
+  color: white;
+}
+
+footer nav {
+  margin: 100px;
+}
+
+footer nav .col {
+  display: inline-block;
+  width: 32%;
+  vertical-align: top;
+}
+
+footer label {
+  color: rgb(50,72,67);
+  border-top: 2px solid rgb(50,72,67);
+  border-bottom: 2px solid rgb(50,72,67);
+  display: block;
+  padding: 3px 0 1px 0;
+  margin: 5px 15% 5px 0;
+}
+
+footer label, footer li {
+  text-transform: uppercase;
+}
+

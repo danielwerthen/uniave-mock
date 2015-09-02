@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'DIN Next LT Pro';
+  font-style: normal;
+  font-weight: normal;
+  src: local('☺'), url('/fonts/Linotype - DIN Next LT Pro Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DIN Next LT Pro';
+  font-style: normal;
+  font-weight: bold;
+  src: local('☺'), url('/fonts/Linotype - DIN Next LT Pro Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'DIN Next LT Pro Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('☺'), url('/fonts/Linotype - DIN Next LT Pro Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'DIN Next LT Pro Condensed';
+  font-style: normal;
+  font-weight: bold;
+  src: local('☺'), url('/fonts/Linotype - DIN Next LT Pro Bold Condensed.ttf') format('truetype');
+}
+
+body, p {
+  font-family: 'DIN Next LT Pro Light', serif;
+  font-weight: normal;
+}
+
+/* Not sure which font is used where */
+h1, h2 {
+  font-family: 'DIN Next LT Pro Condensed', serif;
+  font-weight: bold;
+  font-size: 42px;
+}
+
+h3, h4, strong {
+  font-family: 'DIN Next LT Pro', serif;
+  font-weight: bold;
+}
+
+header .headline h2 {
+  font-family: 'DIN Next LT Pro Light', serif;
+  font-weight: normal;
+  font-size: 32px;
+}
+
+header a {
+  font-size: 12px;
+  letter-spacing: 0.1025em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+article p {
+  font-weight: normal;
+  letter-spacing: 0.0225em;
+  color: #555;
+}
+
+article blockquote {
+  font-family: 'DIN Next LT Pro Condensed', serif;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 0.95em;
+}
